@@ -14,19 +14,19 @@
     },
     {
       "name" : "Evan",
-      "salary" : 48000,
-      "title" : "Cook",
+      "salary" : 45000,
+      "title" : "Chef",
       "attendance" : false
     },
     {
       "name" : "Smith",
-      "salary" : 58900,
+      "salary" : 55900,
       "title" : "Artist",
       "attendance" : false
     },
     {
       "name" : "Johnson",
-      "salary" : 115000,
+      "salary" : 119000,
       "title" : "Data Scientist",
       "attendance" : true
     }

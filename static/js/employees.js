@@ -1,11 +1,11 @@
-// function toTitleCase(str) {
-//     return str.replace(
-//         /\w\S*/g,
-//         function(txt) {
-//             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-//         }
-//     );
-// }
+function toTitleCase(str) {
+    return str.replace(
+        /\w\S*/g,
+        function(txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        }
+    );
+}
 
 Number.prototype.formatMoney = function(c, d, t){
     var n = this,
@@ -74,7 +74,6 @@ function displayNames(response) {
 }
 
 $.get('./assets/employees.json', displayNames);
-
 
 setTimeout(function(){
   $("#home_link").removeClass("active");

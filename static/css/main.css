@@ -10,10 +10,19 @@
   background-color: red;
 }
 
-h1 {
+.good_food {
   color: green;
 }
 
-h3 {
-  color: blue;
+.bad_food {
+  color: red;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+form {
+  margin: 50px 0px;
 }
